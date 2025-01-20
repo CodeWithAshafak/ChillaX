@@ -1,0 +1,19 @@
+
+.bg-body-tertiary{
+  background-color: transparent !important;
+
+}
+
+
+
+
+.user{
+  display: flex;
+  width: 300px;
+  justify-content: space-around;
+  align-items: center;
+ background-color:yellow;
+
+}
+
+

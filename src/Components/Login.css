@@ -1,0 +1,40 @@
+
+
+.main {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  border: 3px dotted grey;
+  border-radius: 20px;
+  top: 100px;
+  margin-bottom: 300px;
+  left: 500px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.main form input {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+}
+.main form button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 130px;
+}
+.main form button:hover {
+  background-color: white;
+  color: black;
+}

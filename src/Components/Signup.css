@@ -1,0 +1,45 @@
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 500px;
+  top: 200px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  color: black;
+  border: 3px dotted grey;
+  border-radius: 20px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.main form {
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 500px;
+  top: 200px;
+  gap: 20px;
+}
+.main form input {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+}
+.main form button {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+}
+.main form button:hover {
+  background-color: white;
+  color: black;
+}

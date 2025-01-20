@@ -1,0 +1,114 @@
+/* ---------------- footer -----------------*/
+.footer_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  background-color: #212121;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  width: 100%;
+  height: 510px;
+  width: 100%;
+}
+.footer_main .main_vertical-1 {
+  margin-bottom: 3rem;
+  color: rgb(255, 255, 255);
+  max-width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 30px;
+}
+.footer_main .main_vertical-1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(122, 182, 48);
+  font-weight: 700;
+}
+.footer_main .main_vertical-1 h1 span {
+  color: rgb(255, 255, 255);
+}
+.footer_main .main_vertical-1 a {
+  color: rgb(122, 182, 48);
+  text-decoration: none;
+}
+.footer_main .main_vertical-1 p {
+  margin-top: 2px;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: justify;
+}
+.footer_main .main_vertical-1 h6 {
+  letter-spacing: 5px;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.footer_main .main_vertical-1 .icons-social {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+  margin-left: -5px;
+}
+.footer_main .main_vertical-1 .icons-social a {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  margin-left: 0.5rem;
+  color: #7ab730;
+  border: 1px solid #77ab38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_main .main_vertical-1 .icons-social a:hover {
+  color: #fff;
+}
+.footer_main .main_vertical-common h5 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 550;
+  margin-bottom: 1.7rem;
+  line-height: 1.22;
+}
+.footer_main .main_vertical-common .flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer_main .main_vertical-common .flex_column a {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.footer_main .main_vertical-common .flex_column a:hover {
+  color: #fff;
+}
+.footer_main .main_vertical-common .flex_column a i {
+  margin-right: 7px;
+  font-weight: 890;
+}
+.footer_main .main_vertical-common .flex_column a i:hover {
+  color: #7ab730;
+}
+.footer_main .main-vartical-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+.footer_main h5 {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 550;
+  margin-bottom: 1.7rem;
+  line-height: 1.22;
+}

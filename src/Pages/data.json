@@ -1,0 +1,21 @@
+{
+ "cutomer":[
+    {
+      "name":"rahul",
+      "email":"rahul@gmail.com"
+    },
+    {
+      "name":"rahul",
+      "email":"rahul@gmail.com"
+    },
+    {
+      "name":"rahul",
+      "email":"rahul@gmail.com"
+    }
+  ],
+  "product":[
+    {
+
+    }
+  ]
+}
