@@ -1,0 +1,122 @@
+{
+  "cutomer": [
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com"
+    },
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com"
+    },
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Kwality Wall's Choco Brownie Fudge",
+      "img": "/src/images/cart1.jpg",
+      "quantity": "700ml",
+      "price": "213"
+    },
+    {
+      "id": 2,
+      "name": "Kwality Walls Dark Divine Chocolate Sensation",
+      "img": "/src/images/cart2.jpg",
+      "quantity": "700 ml",
+      "price": "230"
+    },
+    {
+      "id": 3,
+      "name": "Kwality Walls Fruit & Nut",
+      "img": "/src/images/cart3.jpg",
+      "quantity": "700ml",
+      "price": "233"
+    },
+    {
+      "id": 4,
+      "name": "Amul Chocochips Ice-Cream, 1Ltr",
+      "img": "/src/images/cart44.jpg",
+      "quantity": "1 Litre",
+      "price": "230"
+    },
+    {
+      "id": 5,
+      "name": "Amul Ice Cream Fruit N Nut Fantasy",
+      "img": "/src/images/cart5.jpg",
+      "quantity": "1 Litre",
+      "price": "245"
+    },
+    {
+      "id": 6,
+      "name": "Amul Ice Cream King Alphonso Gold",
+      "img": "/src/images/cart6.jpg",
+      "quantity": " 1 Litre",
+      "price": "260"
+    },
+    {
+      "id": 7,
+      "name": "Milky Mist Mango Frosty Fusion Ice-cream",
+      "img": "/src/images/cart7.jpg",
+      "quantity": "1000ml",
+      "price": "221"
+    },
+    {
+      "id": 8,
+      "name": "Kwality Wall's Choco Brownie Fudge",
+      "img": "/src/images/cart8.jpg",
+      "quantity": "700ml",
+      "price": "213"
+    },
+    {
+      "id": 9,
+      "name": "Amul Ice Cream Sundae Chocolate Magic",
+      "img": "/src/images/cart99.jpg",
+      "quantity": " 1 Litre",
+      "price": "215"
+    },
+    {
+      "id": 10,
+      "name": "Nic Alphonso Mango Ice Cream",
+      "img": "/src/images/cart10.jpg",
+      "quantity": "500ml",
+      "price": "276"
+    },
+    {
+      "id": 11,
+      "name": "Brew Lab Instant Kesar Pista Freeze Ice cream Mix Powder | Easy To Make | Ready To Eat 250 gm.",
+      "img": "/src/images/cart11.jpg",
+      "quantity": "200g",
+      "price": "310"
+    },
+    {
+      "id": 12,
+      "name": "Kwality Wall's Cadbury Crackle Frozen Dessert Tub",
+      "img": "/src/images/cart12.jpg",
+      "quantity": "700ml",
+      "price": "253"
+    }
+  ],
+  "orders": [
+    {
+      "id": "b96a",
+      "flavor": "Vanilla",
+      "size": "small",
+      "quantity": "19",
+      "uname": "Rahul",
+      "mobile": "8522587412",
+      "add": "Bhopal"
+    },
+    {
+      "id": "dad4",
+      "flavor": "mango",
+      "size": "Family Pack",
+      "quantity": "2",
+      "uname": "Prachi Deshmukh",
+      "mobile": "9090909090",
+      "add": "Bhopal MP"
+    }
+  ]
+}

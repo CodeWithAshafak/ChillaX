@@ -1,5 +1,5 @@
-import "./Home.css"
-import React from 'react'
+import "../CSS/Home.css"
+import React, { useEffect, useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -22,38 +22,67 @@ import g1 from "../images/grid1.jpg"
 import g2 from "../images/grid2.jpg"
 // import g3 from "../images/grid33.jpg"
 import g4 from "../images/grid4.jpg"
+import v1 from "../images/brand video.mp4"
+import border from "../images/border.png"
 
 
-import { useLocation, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
+import axios from "axios";
 
-let result = Produts.map((key)=>{
-  return(
-    <>
-    <Card style={{ width: '18rem', border:"1px solid black" }}>
-      <Card.Img id="cardImage" variant="top" src={key.images} />
-      <Card.Body>
-        <Card.Title>Item :{key.name}</Card.Title>
-        <Card.Text>
-         Brand :-  {key.brand}
-        </Card.Text>
-        <Card.Text>
-          Price :- {key.price}
-        </Card.Text>
-        <Button variant="primary">Add to Card</Button>
-      </Card.Body>
-    </Card>
-    
-    </>
-  )
-})
+
+
 
 const Home = () => {
+
+  
+  const [carts, setCarts]= useState([]);
   let navigate = useNavigate()
-  let buyNow = ()=>{
-    navigate("/buynow")
-  }
+  
+   const loadData = async()=>{
+    let api="http://localhost:3000/product"
+   const mydata = await axios.get(api);
+    console.log(mydata.data);
+    setCarts(mydata.data)
+   }
+
+   useEffect(()=>{loadData()},[])
+
+
+
+   let result = carts.map((key)=>{
+    return(
+      <>
+
+      
+      <Card  style={{ width: '18rem', border:"1px solid black" }} >
+        <Card.Img id="cardImage" variant="top" src={key.img} />
+        <Card.Body>
+          <Card.Title>{key.name}</Card.Title>
+          <Card.Text>
+           quantity :-  {key.quantity}
+          </Card.Text>
+          <Card.Text>
+            Price :- {key.price}
+          </Card.Text>
+          <Button variant="outline-warning" onClick={()=>{navigate("/buynow")}} >Add to Card</Button>
+        </Card.Body>
+      </Card>
+    
+      
+      </>
+    )
+  })
+
+  
+ 
   return(
     <>
+
+<video id="video1"  autoPlay loop muted>
+  <source src={v1} type="video/mp4" />
+</video>
+
+
      <Carousel id='carousal'>
       <Carousel.Item>
         <img style={{width:"100%"}} src={b1} alt="" />
@@ -104,13 +133,32 @@ const Home = () => {
       </Carousel.Item>
     </Carousel>
      
-    <div className="cards">
+
+     
+    <div className="cardsmain">
+      <div className="heading">
       <h1 id='heading'>Top Selling Products</h1>
-      {/* {result} */}
+      <img src={border} alt="" />
+      </div>
+      
+
+      <div className="card-container">
+      {result}
+      </div>
+
+      <Button variant="outline-warning" onClick={()=>{navigate("/buynow")}}>Buy Now</Button>
+    
+      
     </div>
-    <center>
-    <Button variant="outline-warning" onClick={buyNow}>Buy Now</Button>
-    </center>
+
+
+
+
+
+
+
+  
+    
       
       <hr />
         
@@ -134,7 +182,7 @@ const Home = () => {
         </Col>
       </Row>
     </Container>
-    
+  
     </>
   )
  

@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import "../CSS/Header.css"
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -19,16 +20,12 @@ const Header = () => {
                 
               <Nav.Link as={Link} to="/home">Home</Nav.Link>  
 
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/buynow">Buy Now</Nav.Link>
+              <Nav.Link as={Link} to="/order">Orders</Nav.Link>
+              <Nav.Link as={Link} to="/about">About Chillax</Nav.Link>
               <Nav.Link as={Link} to="/offers">Offers</Nav.Link>
-              <NavDropdown title="Dropdown" id="navbarScrollingDropdown">
-                <NavDropdown.Item as={Link} to="/action3">Action</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/action4">Another action</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item as={Link} to="/action5">Something else here</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#" disabled>Disabled</Nav.Link>
+             
+             
             </Nav>
             <Form className="d-flex">
               <Form.Control
@@ -39,11 +36,15 @@ const Header = () => {
               />
               <Button variant="outline-success">Search</Button>
             </Form>
-            <div className="user">
-            <Nav.Link as={Link} to="/login">Login</Nav.Link>
-            <Nav.Link as={Link} to="/signup">Signup</Nav.Link>
-                
-            </div>
+           
+
+            
+                <Nav className='ms-auto'> 
+                <Button variant="outline-secondary" size="lg">Admin</Button>
+             
+
+                </Nav>
+            
           </Navbar.Collapse>
 
 

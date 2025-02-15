@@ -1,6 +1,6 @@
 import React from 'react'
-import { Route,Routes } from 'react-router-dom'
-import Layout from './Components/Layout'
+import { BrowserRouter, Route,Routes } from 'react-router-dom'
+import Layout from './Layout'
 
 import About from './Pages/About'
 import Contact from './Pages/Contact'
@@ -9,6 +9,8 @@ import Home from './Pages/Home'
 import Login from './Components/Login'
 import Signup from './Components/Signup'
 import Buyproduct from './Pages/Buyproduct'
+import Thank from './Pages/Thank'
+import Orders from './Pages/Orders'
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
 
   return (
     <>
+    <BrowserRouter>
+   
     <Routes>
 
    <Route path='/' element={<Layout/>}>
@@ -27,9 +31,12 @@ const App = () => {
     <Route path='/login' element={<Login/>}/>
     <Route path='/signup' element={<Signup/>}/>
     <Route path='/buynow' element={<Buyproduct/>}/>
+    <Route path='/thank' element={<Thank/>}/>
+    <Route path='/order' element={<Orders/>}/>
     </Route>
     </Routes>
     
+    </BrowserRouter>
     
     </>
   )

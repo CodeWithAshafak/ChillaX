@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Signup.css"
+
+import "../CSS/Signup.css"
 
 
 const Signup = () => {

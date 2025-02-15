@@ -1,0 +1,55 @@
+#container-grid{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 40px;
+
+}
+#container-grid #row1 img{
+  width: 600px;
+  height: 400px;
+}
+#container-grid #row2 img{
+  width: 600px;
+  height: 400px;
+  
+}
+#carousal{
+  height: 100px;
+  width: 40px;
+}
+
+.cardsmain{
+
+ 
+ display: flex;
+ width: 100%;
+ gap: 20px;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items:center;
+ padding: 100px;
+ background-color: rgb(255, 255, 255);
+ box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content:space-between; /* Centers the cards horizontally */
+  gap: 20px; /* Adds space between cards */
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#video1{
+  height: 200px;
+  width: 200px;
+
+}

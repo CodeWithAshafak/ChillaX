@@ -1,6 +1,7 @@
 import React from 'react'
 
-import "./Login.css"
+
+import "../CSS/Login.css"
 
 import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'

@@ -1,0 +1,11 @@
+.formMain{
+  border: 2px;
+  margin-top: 60px;
+}
+
+.mb-4{
+  background-color: grey;
+  border-radius: 20px;
+  padding: 40px;
+  border: 2px ;
+}

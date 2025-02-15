@@ -1,0 +1,31 @@
+.thank-container {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff7e6;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-image {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #ff6600;
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
+
+h3 {
+  color: #ff3399;
+  margin-top: 20px;
+  font-size: 20px;
+}

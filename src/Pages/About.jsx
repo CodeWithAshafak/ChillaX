@@ -2,7 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <>THIS IS ABOUT US PAGE </>
+    <>
+      <h4>About Chillax</h4>
+    
+    </>
   )
 }
 
