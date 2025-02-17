@@ -1,0 +1,13 @@
+.mainCover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  height: 200px;
+  width: 300px;
+  /* background-color: red; */
+  background-color: grey;
+  border-radius: 20px;
+  margin: auto;
+ 
+}

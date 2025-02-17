@@ -93,10 +93,7 @@ const Home = () => {
       </Carousel.Item>
       <Carousel.Item>
       <img style={{width:"100%"}} src={b2} alt="" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        
       </Carousel.Item>
 
 
@@ -113,23 +110,13 @@ const Home = () => {
 
       <Carousel.Item>
       <img style={{width:"100%"}} src={b4} alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        
       </Carousel.Item>
 
 
       <Carousel.Item>
       <img style={{width:"100%"}} src={b5} alt="" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+       
       </Carousel.Item>
     </Carousel>
      

@@ -2,9 +2,12 @@ import { message } from 'antd';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table';
-
+import { CiEdit } from "react-icons/ci";
+import Button from 'react-bootstrap/Button';
 import { MdDeleteForever } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 const Orders = () => {
+  const navigate = useNavigate()
   const [myData , setMyData] = useState([])
  
   const loadData = async ()=>{
@@ -25,6 +28,12 @@ const Orders = () => {
     loadData()
   }
 
+  const myEdit = (id)=>{
+        // alert(id)
+        navigate(`/edit/${id}`)
+
+      
+  }
 
   let sno=0;
   const result = myData.map((key)=>{
@@ -39,10 +48,14 @@ const Orders = () => {
         <td>{key.uname}</td>
         <td>{key.add}</td>
         <td>{key.mobile}</td>
-        <td><MdDeleteForever style={{fontSize:"20px", color:"red"}}  onClick={()=>{myDel(key.id)} }/>
+        <td><MdDeleteForever style={{fontSize:"20px", color:"red", cursor:"pointer"}}  onClick={()=>{myDel(key.id)} }/>
+
 
         </td>
        
+       <td>
+       <CiEdit style={{cursor:"pointer" ,fontSize:"20px"}} onClick={()=>{myEdit(key.id)}}   />
+       </td>
       </tr>
       
       
@@ -54,7 +67,10 @@ const Orders = () => {
   return (
      <>
       <div style={{display:"flex",flexDirection:"column", alignItems:"center" ,margin:"50px"}} >
-      <h3>Your Orders</h3>
+      <h3>Customer's Order Data</h3>
+
+      <Button variant="outline-warning" style={{margin:"20px"}}
+       onClick={()=>{navigate("/search")}}>Search Data</Button>
 
       <Table striped bordered hover style={{textAlign:"center"}}>
 
@@ -68,6 +84,8 @@ const Orders = () => {
           <th>Address</th>
           <th>Mobile</th>
           <th>Delete</th>
+          <th>Edit</th>
+
          
         </tr>
       </thead>

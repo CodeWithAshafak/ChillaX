@@ -17,9 +17,7 @@ const Footer = () => {
           <p>Tax No. 08AAECT7203P1ZX</p>
           <p>
           Chillax is a premium ice cream brand that delivers happiness in every scoop. Our mission is to craft the finest ice creams using fresh, natural ingredients and innovative flavors to satisfy your sweet cravings. <br />
-            <br />Be it sweets, savoury, dry fruits, dried fruits or hampers,
-            all the offerings of Shahi Swad promise premium quality, delectable
-            taste, hygiene and a smile on your face.
+            
           </p>
           <h6>Follow Us</h6>
           <div className="icons-social">

@@ -2,97 +2,100 @@
   "cutomer": [
     {
       "name": "rahul",
-      "email": "rahul@gmail.com"
+      "email": "rahul@gmail.com",
+      "id": "7f64"
     },
     {
       "name": "rahul",
-      "email": "rahul@gmail.com"
+      "email": "rahul@gmail.com",
+      "id": "a821"
     },
     {
       "name": "rahul",
-      "email": "rahul@gmail.com"
+      "email": "rahul@gmail.com",
+      "id": "fe58"
     }
   ],
   "product": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Kwality Wall's Choco Brownie Fudge",
       "img": "/src/images/cart1.jpg",
       "quantity": "700ml",
       "price": "213"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Kwality Walls Dark Divine Chocolate Sensation",
       "img": "/src/images/cart2.jpg",
       "quantity": "700 ml",
       "price": "230"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Kwality Walls Fruit & Nut",
       "img": "/src/images/cart3.jpg",
       "quantity": "700ml",
       "price": "233"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Amul Chocochips Ice-Cream, 1Ltr",
       "img": "/src/images/cart44.jpg",
       "quantity": "1 Litre",
       "price": "230"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Amul Ice Cream Fruit N Nut Fantasy",
       "img": "/src/images/cart5.jpg",
       "quantity": "1 Litre",
       "price": "245"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Amul Ice Cream King Alphonso Gold",
       "img": "/src/images/cart6.jpg",
       "quantity": " 1 Litre",
       "price": "260"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Milky Mist Mango Frosty Fusion Ice-cream",
       "img": "/src/images/cart7.jpg",
       "quantity": "1000ml",
       "price": "221"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Kwality Wall's Choco Brownie Fudge",
       "img": "/src/images/cart8.jpg",
       "quantity": "700ml",
       "price": "213"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Amul Ice Cream Sundae Chocolate Magic",
       "img": "/src/images/cart99.jpg",
       "quantity": " 1 Litre",
       "price": "215"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Nic Alphonso Mango Ice Cream",
       "img": "/src/images/cart10.jpg",
       "quantity": "500ml",
       "price": "276"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Brew Lab Instant Kesar Pista Freeze Ice cream Mix Powder | Easy To Make | Ready To Eat 250 gm.",
       "img": "/src/images/cart11.jpg",
       "quantity": "200g",
       "price": "310"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Kwality Wall's Cadbury Crackle Frozen Dessert Tub",
       "img": "/src/images/cart12.jpg",
       "quantity": "700ml",
@@ -101,13 +104,31 @@
   ],
   "orders": [
     {
-      "id": "b96a",
+      "id": "dad4",
       "flavor": "Vanilla",
-      "size": "small",
-      "quantity": "19",
-      "uname": "Rahul",
-      "mobile": "8522587412",
+      "size": "Family Pack",
+      "quantity": "4",
+      "uname": "Naznee",
+      "mobile": "9090909090",
+      "add": "Bhopal MP"
+    },
+    {
+      "id": "89ad",
+      "flavor": "Butterscotch",
+      "size": "Medium",
+      "quantity": "2",
+      "uname": "Sahil Namdev",
+      "mobile": "9898986565",
       "add": "Bhopal"
+    },
+    {
+      "id": "15e6",
+      "flavor": "chocolate",
+      "size": "Family Pack",
+      "quantity": "10",
+      "uname": "Akash Redday",
+      "mobile": "8521479630",
+      "add": "Indrapuri Bhopal"
     },
     {
       "id": "dad4",
@@ -116,7 +137,34 @@
       "quantity": "2",
       "uname": "Prachi Deshmukh",
       "mobile": "9090909090",
-      "add": "Bhopal MP"
+      "add": "Hydrabad"
+    },
+    {
+      "id": "dad4",
+      "flavor": "mango",
+      "size": "Family Pack",
+      "quantity": "2",
+      "uname": "Prachi Deshmukh",
+      "mobile": "9090909090",
+      "add": "Bhopal "
+    },
+    {
+      "id": "4b9b",
+      "flavor": "Vanilla",
+      "size": "Medium",
+      "quantity": "1",
+      "uname": "Shifa",
+      "mobile": "7894561230",
+      "add": "Bhopal"
+    },
+    {
+      "id": "0029",
+      "flavor": "chocolate",
+      "size": "Medium",
+      "quantity": "20",
+      "uname": "Ashafak Astanwale",
+      "mobile": "8698468448",
+      "add": "Rose-443, New Minal Residency"
     }
   ]
 }

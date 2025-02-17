@@ -6,12 +6,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../CSS/Header.css"
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary" id='header'>
         <Container id='nav-container' fluid>
           <Navbar.Brand  as={Link} to='home'>Chill <span style={{color:"greenyellow",fontSize:"50px"}}>ax</span> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,7 +22,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/home">Home</Nav.Link>  
 
               <Nav.Link as={Link} to="/buynow">Buy Now</Nav.Link>
-              <Nav.Link as={Link} to="/order">Orders</Nav.Link>
+              {/* <Nav.Link as={Link} to="/order">Orders</Nav.Link> */}
               <Nav.Link as={Link} to="/about">About Chillax</Nav.Link>
               <Nav.Link as={Link} to="/offers">Offers</Nav.Link>
              
@@ -40,7 +41,7 @@ const Header = () => {
 
             
                 <Nav className='ms-auto'> 
-                <Button variant="outline-secondary" size="lg">Admin</Button>
+                <Button variant="outline-secondary" size="lg" onClick={()=>{navigate("/login")}}>Admin</Button>
              
 
                 </Nav>

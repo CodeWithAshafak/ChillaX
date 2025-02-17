@@ -19,7 +19,7 @@ const Thank = () => {
       </p>
       <h3>Stay Cool, Stay Chillax! ❄️</h3>
 
-      <Button variant="success" style={{marginTop:"10px"}} onClick={()=>{navigate("/order")}}  > Your Orders</Button>
+      <Button variant="success" style={{marginTop:"10px"}} onClick={()=>{navigate("/home")}}  >Check another...</Button>
     </div>
   );
 };

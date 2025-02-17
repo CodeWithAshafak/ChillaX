@@ -1,4 +1,12 @@
 .ms-auto{
   width: 200px;
   gap: 30px;
+  position: sticky;
+}
+
+#header{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
 }

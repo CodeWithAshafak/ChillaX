@@ -11,6 +11,8 @@ import Signup from './Components/Signup'
 import Buyproduct from './Pages/Buyproduct'
 import Thank from './Pages/Thank'
 import Orders from './Pages/Orders'
+import Search from './Pages/Search'
+import Edit from './Pages/Edit'
 
 
 const App = () => {
@@ -33,6 +35,9 @@ const App = () => {
     <Route path='/buynow' element={<Buyproduct/>}/>
     <Route path='/thank' element={<Thank/>}/>
     <Route path='/order' element={<Orders/>}/>
+    <Route path='/search' element={<Search/>}/>
+    <Route path='/edit/:id' element={<Edit/>}/>
+    
     </Route>
     </Routes>
     
